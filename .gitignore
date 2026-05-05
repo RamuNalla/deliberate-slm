@@ -1,2 +1,5 @@
 .env
 __pycache__/
+
+# GitHub rejects blobs >100 MB; keep adapter weights out of Git
+adapters/*.zip
