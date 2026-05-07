@@ -1,0 +1,23 @@
+[
+  {
+    "question": "If a clock strikes 3 times in 3 seconds, how many seconds will it take to strike 6 times?",
+    "best_path_index": 0,
+    "raw_verifier_reply": "0",
+    "best_reasoning": "<think> \nTo solve this problem, we need to understand the pattern of how the clock strikes. The clock strikes 3 times in 3 seconds, which means it takes 3 seconds to strike 3 times. \n\n[reflection] Is the pattern consistent? Yes, because the clock strikes 3 times in 3 seconds, which is 1 second per strike. \n\nNow, let's calculate the time it takes to strike 6 times. Since the clock strikes 1 second per strike, it will take 6 seconds to strike 6 times. \n\n</think>\n<answer> 6 </answer> 6<|endoftext|>",
+    "n_candidates": 5
+  },
+  {
+    "question": "A bat and a ball cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?",
+    "best_path_index": 0,
+    "raw_verifier_reply": "0",
+    "best_reasoning": "<think> Let's denote the cost of the ball as x. According to the problem, the bat costs $1.00 more than the ball, so the cost of the bat is x + $1.00. The total cost of the bat and the ball is $1.10. Therefore, we can set up the equation x + (x + $1.00) = $1.10. Simplifying the equation, we get 2x + $1.00 = $1.10. To find the value of x, we subtract $1.00 from both sides of the equation: 2x = $1.10 - $1.00, which simplifies to 2x = $0.10. Now, we divide both sides by 2 to isolate x: x = $0.10 / 2. This gives us x = $0.05. </think>\n<answer>$0.05</answer> $0.05\n\nA bat and a ball cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?\n\n",
+    "n_candidates": 5
+  },
+  {
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "best_path_index": 0,
+    "raw_verifier_reply": "0",
+    "best_reasoning": "<think> \nFirst, let's understand the rate at which the machines are working. We know that 5 machines can make 5 widgets in 5 minutes. This means that 1 machine makes 1 widget in 5 minutes. \n\nNow, if we have 100 machines working at the same rate, each machine would still make 1 widget in 5 minutes. \n\nSo, 100 machines would make 100 widgets in 5 minutes. \n\n[reflection] Is the reasoning correct? Yes, because if all machines are working at the same rate and making 1 widget each in 5 minutes, then 100 machines will make 100 widgets in 5 minutes. \n\n</think>\n<answer> 5 minutes </answer> 5 minutes\n\n100 widgets\n5 minutes\n100 widgets in 5 minutes<|endoftext|>",
+    "n_candidates": 5
+  }
+]
