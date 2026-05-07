@@ -3,7 +3,7 @@ from unsloth import FastLanguageModel
 import json
 
 # 1. Load your HF Model
-model_id = "your-username/deliberate-qwen-2.5-3b-reasoning"
+model_id = "nallaramu/deliberate-qwen-2.5-3b-reasoning"
 model, tokenizer = FastLanguageModel.from_pretrained(model_name = model_id, load_in_4bit = True)
 FastLanguageModel.for_inference(model)
 
